@@ -21,7 +21,7 @@
 #include "util.h"
 
 #define PROGRAM_SIZE_WORDS  0x10000
-#define DATA_SIZE_BYTES     0x900
+#define DATA_SIZE_BYTES     0x2000
 
 #define PIN_PORTB   0
 #define PIN_PORTC   8

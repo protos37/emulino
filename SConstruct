@@ -18,4 +18,4 @@
 
 env = Environment(CFLAGS = "-Wall -Werror")
 env.Program("emulino", ["emulino.c", "loader.c", "cpu.c", "eeprom.c", "port.c", "timer.c", "usart.c"])
-env.Command("avr.inc", ["mkinst.py", "instructions.txt"], "/opt/local/bin/python2.5 mkinst.py")
+env.Command("avr.inc", ["mkinst.py", "instructions.txt"], "/usr/bin/python mkinst.py")

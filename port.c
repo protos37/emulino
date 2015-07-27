@@ -24,7 +24,7 @@
 
 #include "cpu.h"
 
-#define PORT_BASE   0x23
+#define PORT_BASE   0x30
 
 #define INDEX_PIN   0
 #define INDEX_DDR   1

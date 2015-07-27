@@ -26,10 +26,10 @@
 
 #define EEPROM_SIZE 1024
 
-#define EEPROM_EECR     0x3f
-#define EEPROM_EEDR     0x40
-#define EEPROM_EEARL    0x41
-#define EEPROM_EEARH    0x42
+#define EEPROM_EECR     0x3c
+#define EEPROM_EEDR     0x3d
+#define EEPROM_EEARL    0x3e
+#define EEPROM_EEARH    0x3f
 
 #define EEPROM_EECR_EERE    BIT(0)
 #define EEPROM_EECR_EEPE    BIT(1)

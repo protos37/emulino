@@ -26,9 +26,9 @@
 
 #include "cpu.h"
 
-#define USART_UCSR0A    0xc0
-#define USART_UCSR0B    0xc1
-#define USART_UDR0      0xc6
+#define USART_UCSR0A    0x2b
+#define USART_UCSR0B    0x2a
+#define USART_UDR0      0x2c
 
 #define USART_UCSRA_UDRE    BIT(5)
 #define USART_UCSRA_TXC     BIT(6)
